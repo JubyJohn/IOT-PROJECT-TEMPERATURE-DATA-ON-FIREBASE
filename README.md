@@ -70,9 +70,9 @@ To create a Firebase project with a realtime database and to store the temperatu
 
 For Visual Studio Code, the libraries are,
 <br> lib_deps = 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;bonezegei/Bonezegei_DHT11@^1.0.1
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;marcoschwartz/LiquidCrystal_I2C@^1.1.4
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;mobizt/Firebase Arduino Client Library for ESP8266 and ESP32@^4.4.14 
+<br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;bonezegei/Bonezegei_DHT11@^1.0.1
+<br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;marcoschwartz/LiquidCrystal_I2C@^1.1.4
+<br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;mobizt/Firebase Arduino Client Library for ESP8266 and ESP32@^4.4.14 
 
 
 
