@@ -13,7 +13,7 @@ To create a Firebase project with a realtime database and to store the temperatu
 3.	DHT11
 4.	Jumper Wire
 5.	USB cable
-
+   
 
 ## CONNECTION
 
