@@ -30,7 +30,7 @@ To create a Firebase project with a realtime database and to store the temperatu
 
  ![DHT11](https://github.com/user-attachments/assets/73f3e446-f3df-43a1-8db5-17e8f8b26365)
 
-<br> DATA  = Output     ---->  D4
+<br> S     = Output     ---->  D4
 <br> VCC   = power supply  ---->  3V3
 <br> GND   = ground   ---->  GND
 
@@ -49,16 +49,16 @@ To create a Firebase project with a realtime database and to store the temperatu
 
 ### Error 1 -   library installation
 
-How to rectify:
-(1)  Need to find suitable library
-(2)  Copy  link address of libraries mentioned below -> paste next to "lib_deps =" on platformio.ini file in visual studio code
+<br> How to rectify:
+<br> (1)  Need to find suitable library
+<br> (2)  Copy  link address of libraries mentioned below -> paste next to "lib_deps =" on platformio.ini file in visual studio code
 
 ### Error 2 -   Not getting DHT22 sensor reading 
 
-How to rectify:
-(1)  On serial monitor it prints like
-              Humidity: nan %  Temperature : nan*C      // not getting the readings 
-(2)  Changed sensor , this error shows because of sensor complaint.
+<br> How to rectify:
+<br> (1)  On serial monitor it prints like
+<br> &ensp;&ensp;&ensp;&ensp;  Humidity: nan %  Temperature : nan*C      // not getting the readings 
+<br> (2)  Changed sensor , this error shows because of sensor complaint.
 
 
 ## OUTPUT
@@ -70,9 +70,9 @@ How to rectify:
 
 For Visual Studio Code, the libraries are,
 <br> lib_deps = 
-bonezegei/Bonezegei_DHT11@^1.0.1
-marcoschwartz/LiquidCrystal_I2C@^1.1.4
-mobizt/Firebase Arduino Client Library for ESP8266 and ESP32@^4.4.14 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;bonezegei/Bonezegei_DHT11@^1.0.1
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;marcoschwartz/LiquidCrystal_I2C@^1.1.4
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;mobizt/Firebase Arduino Client Library for ESP8266 and ESP32@^4.4.14 
 
 
 
